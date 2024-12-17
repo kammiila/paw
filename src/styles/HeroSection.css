@@ -1,0 +1,53 @@
+/* Стили для Hero-секции */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+ background: #f3f1f1;
+    color: #333;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .hero-text button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e67e22;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .hero-text button:hover {
+    background-color: #d35400;
+  }
+  
+  .hero-image img {
+    max-width: 850px;
+    border-radius: 10px;
+    margin-left: 1%;
+  }
+  .highlight{
+    color: #d35400;
+  }
+  
+  .asasc{
+    color: black;
+    text-decoration: none;
+  }

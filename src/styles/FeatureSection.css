@@ -1,0 +1,21 @@
+/* Стили для секции с интересными фактами */
+.features {
+    padding: 40px;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+
+  
