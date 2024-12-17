@@ -4,7 +4,7 @@ import "./../styles/Services.css";
 const Services = () => {
   return (
     <section id="services" className="our-services">
-      <h2>Как проходит консультация?</h2>
+      <h2 className='serviz'>Как проходит консультация?</h2>
       <p>Консультация в ветеринарной клинике обычно проходит следующим образом:</p>
       <div className="services-cards">
         <div className="service-card">

@@ -5,7 +5,7 @@ import "./../styles/FeatureSection.css";
 function FeatureSection() {
   return (
     <section id="consul" className="features">
-      <h2>Наши услуги</h2>
+      <h2 className="nashi">Наши услуги</h2>
       <div className="feature-cards">
         <DogCard 
           title="Забота и здоровье" 
